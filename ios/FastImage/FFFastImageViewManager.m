@@ -3,7 +3,6 @@
 
 #import <SDWebImage/SDImageCache.h>
 #import <SDWebImage/SDWebImagePrefetcher.h>
-#import <SDWebImage/SDImageCache.h>
 
 @implementation FFFastImageViewManager
 

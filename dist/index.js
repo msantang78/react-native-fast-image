@@ -90,6 +90,10 @@ FastImage.preload = sources => FastImageViewNativeModule.preload(sources);
 
 FastImage.getCachePath = source => FastImageViewNativeModule.getCachePath(source);
 
+FastImage.clearMemoryCache = () => FastImageViewNativeModule.clearMemoryCache();
+
+FastImage.clearDiskCache = () => FastImageViewNativeModule.clearDiskCache();
+
 const styles = StyleSheet.create({
   imageContainer: {
     overflow: 'hidden'
