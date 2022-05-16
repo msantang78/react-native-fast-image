@@ -134,4 +134,3 @@ class FastImageViewModule extends ReactContextBaseJavaModule {
         promise.resolve(null);
     }
 }
-}
